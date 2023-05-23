@@ -17,6 +17,13 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+h1{
+
+    color: black
+   
+
+}
+
 article{
     max-width: 1100px;
     margin: auto;
@@ -27,7 +34,7 @@ article{
 }
 
 #home{
-    background: url("woods.jpg");
+    background: url("/images/woods.jpg");
     background-size: cover;
     height: 800px;
     background-position: center;
@@ -84,7 +91,7 @@ nav ul li a:hover{
 
 
 .bg-2{
-    background: url("hp-2.jpg");
+    background: url("/images/hp-2.jpg");
     background-size: cover;
     height: 750px;
     background-position: center;

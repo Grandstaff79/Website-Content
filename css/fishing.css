@@ -41,7 +41,7 @@ header{
 }
 
 #fishing{
-    background: url("fishing.jpg");
+    background: url("/images/fishing.jpg");
     background-size: cover;
     height: 2000px;
     background-position: center;

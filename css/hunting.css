@@ -45,7 +45,7 @@ body{
 
 
 #hunting{
-    background: url("hunting.jpg");
+    background: url("/images/hunting.jpg");
     background-size: cover;
     height:2000px;
     background-position: center;

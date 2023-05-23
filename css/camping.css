@@ -47,7 +47,7 @@ body{
 }
 
 #camping{
-    background: url("camping.jpg");
+    background: url("/images/camping.jpg");
     background-size: cover;
     height:2000px;
     background-position: center;
