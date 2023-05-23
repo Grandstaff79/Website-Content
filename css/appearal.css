@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  .column {
+    width: 100%;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(250, 245, 245, 0.548);
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.header {
+  background-color: #414141;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: relative;
+  width: 100%;
+  z-index: 3;
+}
+
+.appearal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 75px;
+}
+
+#appearal{
+  background-color: cornflowerblue;
+  background-size:cover;
+  height: 2000px;
+  background-position: center;
+
+
+}
+
+
+.menu-container {
+    
+    display: flex;
+    
+  }
+
+nav ul li{
+    display: inline;
+    padding: 5px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 4, 4);
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: rgb(219, 4, 4);
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #fafafa;
+}  
+
+h2, h3{
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+
+h2{
+ text-align: center;
+}
+
+h3 p{
+    font-size: 15px;
+}
+
+footer{
+    background: #830707;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+button:hover{
+  background: rgb(214, 177, 26);
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+.cd-cart__layout {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden;
+    height: 72px;
+    width: 72px;
+    border-radius: var(--radius);
+    transition: height .4s .1s, width  .4s .1s, box-shadow .3s;
+    transition-timing-function: cubic-bezier(.67,.17,.32,.95);
+    background: var(--cd-color-3);
+    box-shadow: 0 4px 30px rgba(#000, .17);
+  }
+  
+  .cd-cart--open .cd-cart__layout {
+    height: 100%;
+    width: 100%;
+    transition-delay: 0s;
+  }
+  .cd-cart__product--deleted { 
+    position: absolute;
+    left: 0;
+    width: 100%; 
+    opacity: 0;
+    animation: cd-item-slide-out .3s forwards;
+  }
+  
+  @keyframes cd-item-slide-out {
+    0% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(80px);
+      opacity: 0;
+    }
+  }

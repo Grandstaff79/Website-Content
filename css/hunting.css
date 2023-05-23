@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  .column {
+    width: 100%;
+  }
+
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(245, 250, 248, 0.548);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    align-items: center;
+  
+    
+}
+.hunt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+	padding: 75px;
+	
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+#hunting{
+    background: url("hunting.jpg");
+    background-size: cover;
+    height:2000px;
+    background-position: center;
+}
+
+
+.menu-container {
+    
+    display: flex;
+    
+  }
+
+nav ul li{
+    display: inline;
+    padding: 5px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 4, 4);
+    transition: 0.5s;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: rgb(219, 4, 4);
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #fafafa;
+}  
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+h2{
+    text-align: center;
+    color: #e28811;
+}
+
+h2, h3{
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+
+ p{
+    font-size: 20px;
+    color: #e28811;
+    text-align: center;
+}
+
+footer{
+    background: #830707;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+
+button:hover{
+    background: rgb(214, 177, 26);
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+

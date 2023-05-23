@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+td,th {
+	font-family: monospace;
+	padding: 4px;
+	background-color: #ccc;
+}
+
+header{
+	display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 245, 245, 0.548);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #414141;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: relative;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .menu-container {
+    
+    display: flex;
+    
+  }
+
+  nav ul li{
+    display: inline;
+    padding: 5px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 4, 4);
+    transition: 0.5s;
+   
+}
+
+body{
+background-color: dodgerblue;
+}
+
+legend{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+label {
+	vertical-align: top;
+}
+
+#main {
+	border: 1px dotted blue;
+	padding: 6px;
+	background-color: #ccc;
+	margin-right: 50%;
+}
+
+#items_table {
+	border: 1px dotted blue;
+	padding: 6px;
+	margin-top: 12px;
+	margin-right: 50%;
+}
+
+#items_table h3 {
+	font-size: 18px;
+	margin-top: 0px;
+	font-family: sans-serif;
+}
+
+footer{
+    background: #830707;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}

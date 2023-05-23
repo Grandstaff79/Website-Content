@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  
+  .column {
+    width: 100%;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+article{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+
+#home{
+    background: url("woods.jpg");
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(250, 245, 245, 0.548);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+#img-cart{
+	padding:25px;
+	
+}
+	
+
+
+.header, img-cart {
+    background-color: #414141;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    position: relative;
+    width: 100%;
+    z-index: 3;
+	
+  }
+   
+  
+.menu-container {
+    
+    display: flex;
+    
+  }
+
+nav ul li{
+    display: inline;
+    padding: 5px;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    color: rgb(219, 4, 4);
+    transition: 0.5s;
+   
+}
+
+
+
+.bg-2{
+    background: url("hp-2.jpg");
+    background-size: cover;
+    height: 750px;
+    background-position: center;
+    padding: 10px;
+    
+
+}
+
+.red{
+    background: #a40101;
+}
+
+.deals{
+	 display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+	padding: 15px;
+	
+	}
+
+
+
+h1{
+    font-size: 60px;
+    margin: 0;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+
+
+h2, h3{
+    font-size: 45px;
+    margin: 0;
+    padding: 20px;
+}
+
+h3 p{
+    font-size: 15px;
+}
+
+
+
+input[type="text"],input[type="email"]{
+    border-radius: 10px;
+    
+}
+
+
+
+
+.products p{
+    font-size: 40px;
+    margin: 0;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #shopping-cart{
+    display: none;
+}
+.submenu:hover #shopping-cart{
+    display: block;
+    position: absolute;
+    right:0;
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+.remove {
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: red;
+}
+.remove:hover{
+    background-color: pink;
+    color: red;
+}
+
+
+#products-list  {
+    margin-bottom:20px;
+}
+.add-to-cart {
+    margin:10px 0;
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+
+
+footer{
+    background: #830707;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background: rgb(219, 4, 4);
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #fafafa;
+}  
+
+button:hover{
+    background: rgb(214, 177, 26);
+    cursor: pointer;
+    transition: 0.5s;
+  
+}
+}
